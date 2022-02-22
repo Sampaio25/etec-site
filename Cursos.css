@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 150%;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.banner {
+    min-height: 100vh;
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(banner.jpg);*/
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: top;
+    padding: 100px 0;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 100px 0;
+    border-radius: 10px;
+    font-size: 75px;
+}
+
+i {
+    font-size: 30px;
+    text-align: right;
+    justify-content: space-between;
+    display: flex;
+    padding: 8px 12px;
+    color: #fff;
+}
+
+
+/* Cursos */
+
+.enfermagem {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #e0d4d4;
+}
+
+.enfermagem img {
+    height: auto;
+    width: 430px;
+}
+
+.texto {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto h2 {
+    color: rgb(72, 59, 255);
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.texto h5 {
+    color: rgb(72, 59, 255);
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.texto p {
+    color: rgba(0, 0, 0, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 14px;
+    margin-bottom: 45px;
+}
+
+button {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+.adm {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #c5d3cb;
+}
+
+.adm img {
+    height: auto;
+    width: 430px;
+}
+
+.EM {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #bfb3ca;
+}
+
+.EM img {
+    height: auto;
+    width: 430px;
+}
+
+.edificacao {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #c0c4ae;
+}
+
+.edificacao img {
+    height: auto;
+    width: 430px;
+}
+
+.logistica {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(209, 183, 196);
+}
+
+.logistica img {
+    height: auto;
+    width: 430px;
+}
